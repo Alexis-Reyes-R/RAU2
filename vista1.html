@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="diseño.css"> 
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Tu Tienda de Videojuegos</h1>
+        <nav>
+            <ul>
+                <li><a href="https://steamcommunity.com/">Comunidad</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Localizacion.html">Localización</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="destacados">
+        
+    </section>
+
+    <section class="novedades">
+
+    </section>
+
+    <section class="acceso">
+        <h2>Registrarse</h2>
+        <form id="formRegistrar" method="POST" action="registro.php">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="Email">
+            <br>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena">
+            <br>
+            <button type="submit">Registrarse</button>
+            <a href="index.php">Ya tienes cuenta? Inicia sesion!</a>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Tienda de Videojuegos</p>
+    </footer>
+</body>
+</html>
